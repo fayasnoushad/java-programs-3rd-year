@@ -35,11 +35,11 @@ public class Volume {
         obj.findVolume(s.nextDouble());
 
         // rectangular box volume
-        System.out.print("Enter the length, width and height of the rectangular box:- ");
+        System.out.print("\nEnter the length, width and height of the rectangular box:- ");
         obj.findVolume(s.nextDouble(), s.nextDouble(), s.nextDouble());
 
         // cylinder volume
-        System.out.print("Enter the radius and height of the cylinder:- ");
+        System.out.print("\nEnter the radius and height of the cylinder:- ");
         obj.findVolume(s.nextDouble(), s.nextDouble());
 
         s.close();
