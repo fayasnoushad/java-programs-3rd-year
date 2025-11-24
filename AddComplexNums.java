@@ -22,7 +22,7 @@ class Complex {
     }
 
     public void show() {
-        System.out.println(this.real + " + i" + this.img);
+        System.out.println(this.real + " + " + this.img + "i");
     }
 
     public Complex add(Complex c) {
