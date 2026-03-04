@@ -35,16 +35,11 @@ class Result extends Student {
     }
 
     void calculateGrade() {
-        if (average >= 90)
-            grade = 'A';
-        else if (average >= 75)
-            grade = 'B';
-        else if (average >= 60)
-            grade = 'C';
-        else if (average >= 50)
-            grade = 'D';
-        else
-            grade = 'F';
+        if (average >= 90) grade = 'A';
+        else if (average >= 75) grade = 'B';
+        else if (average >= 60) grade = 'C';
+        else if (average >= 50) grade = 'D';
+        else grade = 'F';
     }
 
     void displayResult() {

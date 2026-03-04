@@ -10,14 +10,10 @@ public class Fibonacci {
             limit = scan.nextInt();
             System.out.print("Fibonacci Series:");
             for (int i = 0; i <= limit; i++) {
-                if (i < 2)
-                    next = i;
-                else {
-                    next = first + second;
-                    first = second;
-                    second = next;
-                }
-                System.out.print("  " + next);
+                System.out.print("  " + first);
+                next = first + second;
+                first = second;
+                second = next;
             }
             System.out.println();
         }

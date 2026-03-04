@@ -3,6 +3,7 @@
 // limit (Hint : Implement thread using Runnable interface).
 
 import java.util.Scanner;
+import java.lang.Runnable;
 
 public class OddEvenThreads {
     @SuppressWarnings("ConvertToTryWithResources")
@@ -19,7 +20,7 @@ public class OddEvenThreads {
     }
 }
 
-class OddRunnable implements java.lang.Runnable {
+class OddRunnable implements Runnable {
     int limit;
 
     public OddRunnable(int limit) {
@@ -34,7 +35,7 @@ class OddRunnable implements java.lang.Runnable {
     }
 }
 
-class EvenRunnable implements java.lang.Runnable {
+class EvenRunnable implements Runnable {
     int limit;
 
     public EvenRunnable(int limit) {

@@ -5,18 +5,18 @@ import java.util.Scanner;
 
 class Vol {
     // volume of cube
-    void findVolume(double a) {
-        System.out.println("Volume of cube = " + (a * a * a));
+    void findVolume(double side) {
+        System.out.println("Volume of cube = " + (side * side * side));
     }
 
     // volume of rectangular box
-    void findVolume(double a, double b, double c) {
-        System.out.println("Volume of rectangular box = " + (a * b * c));
+    void findVolume(double length, double width, double height) {
+        System.out.println("Volume of rectangular box = " + (length * width * height));
     }
 
     // volume of cylinder
-    void findVolume(double a, double b) {
-        System.out.println("Volume of cylinder = " + (3.14 * a * a * b));
+    void findVolume(double radius, double height) {
+        System.out.println("Volume of cylinder = " + (3.14 * radius * radius * height));
     }
 }
 

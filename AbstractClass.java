@@ -44,10 +44,10 @@ public class AbstractClass {
         Scanner sc = new Scanner(System.in);
 
         // rectangle
-        System.out.print("Enter length and breadth of rectangle: ");
-        double l = sc.nextDouble();
-        double b = sc.nextDouble();
-        Shape rect = new Rectangle(l, b);
+        System.out.print("Enter length and width of rectangle: ");
+        double length = sc.nextDouble();
+        double width = sc.nextDouble();
+        Shape rect = new Rectangle(length, width);
         System.out.println("Area of Rectangle: " + rect.area());
 
         // triangle
@@ -56,5 +56,7 @@ public class AbstractClass {
         double height = sc.nextDouble();
         Shape tri = new Triangle(base, height);
         System.out.println("Area of Triangle: " + tri.area());
+
+        sc.close();
     }
 }
